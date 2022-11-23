@@ -15,6 +15,8 @@ extension CoinType {
             return 0xb0
         case .dash:
             return 0xcc
+        case .hthcoin:
+            return 0xe4    
         case .zcoin:
             return 0xd2
         default:
