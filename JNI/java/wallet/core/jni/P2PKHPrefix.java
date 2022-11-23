@@ -15,6 +15,7 @@ public enum P2PKHPrefix {
     LITECOIN ((byte) 0x30),
     VIACOIN ((byte) 0x47),
     DASH ((byte) 0x4C),
+    HTHCOIN ((byte) 0x64),
     ZCOIN ((byte) 0x52),
     ZCASHT ((byte) 0xB8);
 
@@ -29,6 +30,7 @@ public enum P2PKHPrefix {
             case (byte) 0x00: return P2PKHPrefix.BITCOIN;
             case (byte) 0x30: return P2PKHPrefix.LITECOIN;
             case (byte) 0x4C: return P2PKHPrefix.DASH;
+            case (byte) 0x64: return P2PKHPrefix.DASH;    
             case (byte) 0x52: return P2PKHPrefix.ZCOIN;
             case (byte) 0xB8: return P2PKHPrefix.ZCASHT;
             default: return null;
