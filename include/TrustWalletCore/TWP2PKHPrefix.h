@@ -20,6 +20,7 @@ enum TWP2PKHPrefix {
     TWP2PKHPrefixDash = 0x4C,
     TWP2PKHPrefixDecred = 0x3f,
     TWP2PKHPrefixGroestlcoin = 0x24,
+    TWP2PKHPrefixHthCoin = 0x64,
     TWP2PKHPrefixZcoin = 0x52,
     TWP2PKHPrefixZcashT = 0xB8,
 };
