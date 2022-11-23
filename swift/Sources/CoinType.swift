@@ -16,6 +16,7 @@ public enum CoinType: UInt32, CaseIterable {
     case ethereum = 60
     case ethereumClassic = 61
     case go = 6060
+    case hthcoin = 231
     case icon = 74
     case litecoin = 2
     case viacoin = 14
