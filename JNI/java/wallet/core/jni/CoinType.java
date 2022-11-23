@@ -19,6 +19,7 @@ public enum CoinType {
     ETHEREUM (60),
     ETHEREUMCLASSIC (61),
     GO (6060),
+    HTHCOIN (231),
     ICON (74),
     LITECOIN (2),
     VIACOIN (14),
@@ -57,6 +58,7 @@ public enum CoinType {
             case 60: return CoinType.ETHEREUM;
             case 61: return CoinType.ETHEREUMCLASSIC;
             case 6060: return CoinType.GO;
+            case 231: return CoinType.HTHCOIN;
             case 74: return CoinType.ICON;
             case 2: return CoinType.LITECOIN;
             case 1024: return CoinType.ONTOLOGY;
